@@ -17,7 +17,6 @@ const AppStyle = styled.div(({ theme }) => ({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <ResetStyles />
       <GlobalStyles />
       <AppStyle>
         <Game />
