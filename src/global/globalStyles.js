@@ -10,7 +10,8 @@ const GlobalStyles = createGlobalStyle`
     src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
   }
   body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+    //font-family: Roboto;
   }
 `;
 

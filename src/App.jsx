@@ -1,6 +1,6 @@
 import styled, { ThemeProvider } from "styled-components";
-import GlobalStyles from "./global/globalStyles";
 import ResetStyles from "./global/resetStyles";
+import GlobalStyles from "./global/globalStyles";
 import theme from "./theme/themes";
 import Game from "./components/Game";
 
@@ -19,7 +19,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <ResetStyles />
       <GlobalStyles />
+      <AppStyle>
         <Game />
+      </AppStyle>
     </ThemeProvider>
   );
 }
